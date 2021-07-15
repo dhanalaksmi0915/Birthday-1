@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: cyan;
+            
+        }
+        div{
+            margin-left: 20px;
+            width: 100px;
+            height: 100px;
+            border-radius: 5px;
+            position:relative;
+        }
+        .red{
+           background-image:url(../HTML5/form/image/download.jpg);
+           background-size: 150px;
+           opacity: 0.5;
+            background-color:red;
+            border: 2px solid green;  transform: rotate(10deg);
+        }
+        .red:hover{
+            opacity: 1.0;
+        }
+        .yellow{
+
+            margin-top: 5px;
+            background-color: yellow;
+            border: 2px solid green;
+            transform: rotate(30deg);
+        }
+        .blue{
+          
+           margin-bottom: 10px;
+           background-color:blue;
+           border: 2px solid green;
+       }
+       .blue:hover{
+          
+           background-size: 100px;
+           background-image: url(./imags/h.jpg);
+       }
+       .purple{
+           background-color: purple;
+           border: 2px solid green;
+           transform: rotate(20deg);
+           opacity: 0.8;
+       }
+       .purple:hover{
+        background-color:yellow;
+           opacity: 1.0;
+          
+       }
+       .red1{
+           margin:-420px 130px  4px;
+           background-image:url(../HTML5/form/image/download.jpg);
+           background-size: 150px;
+            transform: rotate(40deg);
+            background-color:red;
+       }
+       .yellow1{
+        margin:-420px 130px 4px ;
+           /* background-image:url(../HTML5/form/image/download.jpg);  */
+
+        margin-top: 5px;
+        background-color: red;
+        border: 2px solid green;
+        transform: rotate(10deg);
+        opacity: 0.9;
+       }
+       .yellow1:hover{
+           background-color: lawngreen;
+           opacity: 1.0;
+       }
+       .blue1{
+        margin:-5px 130px 4px ;
+       
+           background-color:blue;
+           border: 2px solid green;
+           transform: rotate(30deg);
+           opacity: 0.5;
+           transition-delay: 1s;
+       }
+       .blue1:hover{
+        opacity: 1.0;
+        background-image: url(./imags/a.jpg);
+        background-size: 100px;
+        
+       }
+       .pink1{
+        margin:10px 130px 4px ;
+       
+       background-color:#dd00ff;
+       border: 2px solid green;
+       transform: rotate(10deg);
+       }
+
+       .red2{
+           margin:-420px 250px  4px ;
+           background-image:url(../HTML5/form/image/download.jpg);
+           background-size: 150px;
+         transform: rotate(30deg);
+            background-color:red;
+       }
+       .yellow2{
+        margin:-320px 250px 4px ;
+           /* background-image:url(../HTML5/form/image/download.jpg);  */
+
+        margin-top: 5px;
+        background-color: red;
+        border: 2px solid green;
+        transform: rotate(10deg);
+        opacity: 0.9;
+       }
+       .yellow2:hover{
+           background-color: lawngreen;
+           opacity: 1.0;
+       }
+       .blue2{
+        margin:-5px 250px 4px ;
+       
+           background-color:blue;
+           border: 2px solid green;
+           transform: rotate(60deg);
+           opacity: 0.5;
+           transition-delay: 1s;
+       }
+       .blue2:hover{
+        opacity: 1.0;
+        background-image: url(./imags/p.jpg);
+        background-size: 110px;
+        
+       }
+       .pink2{
+        margin:10px 250px 4px ;
+       
+       background-color:#dd00ff;
+       border: 2px solid green;
+       transform: rotate(10deg);
+       }
+       .red3{
+           margin:-420px 360px  3px ;
+           background-image:url(../HTML5/form/image/download.jpg);
+           background-size: 150px;
+         transform: rotate(40deg);
+            background-color:red;
+       }
+       .yellow3{
+        margin:-320px 360px 4px ;
+           /* background-image:url(../HTML5/form/image/download.jpg);  */
+
+        margin-top: 5px;
+        background-color: red;
+        border: 2px solid green;
+        transform: rotate(67deg);
+        opacity: 0.9;
+       }
+       .yellow3:hover{
+           background-color: lawngreen;
+           opacity: 1.0;
+       }
+       .blue3{
+        margin:-5px 360px 4px ;
+       
+           background-color:blue;
+           border: 2px solid green;
+           transform: rotate(40deg);
+           opacity: 0.5;
+           transition-delay: 1s;
+       }
+       .blue3:hover{
+        opacity: 1.0;
+        background-image: url(./imags/p.jpg);
+        background-size: 110px;
+        
+       }
+       .pink3{
+        margin:10px 360px 4px ;
+       
+       background-color:#dd00ff;
+       border: 2px solid green;
+       transform: rotate(20deg);
+       opacity: 0.5;
+       }
+       .pink3:hover{
+           opacity: 1.0;
+           background-image: url(./imags/b.png);
+           background-size: 100px;
+       }
+
+       .red4{
+           margin:-420px 460px  3px ;
+           background-image:url(../HTML5/form/image/download.jpg);
+           background-size: 150px;
+         transform: rotate(40deg);
+            background-color:red;
+       }
+       .yellow4{
+        margin:-320px 460px 4px ;
+           /* background-image:url(../HTML5/form/image/download.jpg);  */
+
+        margin-top: 5px;
+        background-color: red;
+        border: 2px solid green;
+        transform: rotate(67deg);
+        opacity: 0.9;
+       }
+       .yellow4:hover{
+           background-color: lawngreen;
+           opacity: 1.0;
+       }
+       .blue4{
+        margin:-5px 460px 4px ;
+       
+           background-color:blue;
+           border: 2px solid green;
+           transform: rotate(30deg);
+           opacity: 0.5;
+           transition-delay: 1s;
+       }
+       .blue4:hover{
+        opacity: 1.0;
+        background-image: url(./imags/y.jpg);
+        background-size: 90px;
+        
+       }
+       .pink4{
+        margin:-5px 460px 4px ;
+       
+       background-color:#dd00ff;
+       border: 2px solid green;
+       transform: rotate(20deg);
+       }
+       .pink4:hover{
+           background-size: 100px;
+           background-image: url(./imags/i.jpg);
+       }
+       .red5{
+           margin:-420px 560px 0px ;
+           background-image:url(../HTML5/form/image/download.jpg);
+           background-size: 150px;
+         transform: rotate(40deg);
+            background-color:red;
+       }
+       .yellow5{
+        margin:-320px 560px 4px ;
+           /* background-image:url(../HTML5/form/image/download.jpg);  */
+
+        margin-top: 5px;
+        background-color: red;
+        border: 2px solid green;
+        transform: rotate(67deg);
+        opacity: 0.9;
+       }
+       .yellow5:hover{
+           background-color: lawngreen;
+           opacity: 1.0;
+       }
+       .blue5{
+        margin:-5px 560px 4px ;
+       
+           background-color:blue;
+           border: 2px solid green;
+           transform: rotate(30deg);
+           opacity: 0.5;
+           transition-delay: 1s;
+       }
+       .blue5:hover{
+        opacity: 1.0;
+        background-image: url(./imags/r.jpg);
+        background-size: 160px;
+        
+       }
+       .pink5{
+        margin:10px 560px 4px ;
+       
+       background-color:#dd00ff;
+       border: 2px solid green;
+       transform: rotate(20deg);
+       }
+       /* .pink5:hover{
+           background-size: 100px;
+           background-image: url(./imags/i.jpg);
+       } */
+       .red6{
+           margin:-420px 660px  3px ;
+           background-image:url(../HTML5/form/image/download.jpg);
+           background-size: 150px;
+         transform: rotate(40deg);
+            background-color:red;
+       }
+       .yellow6{
+        margin:-320px 660px 4px ;
+           /* background-image:url(../HTML5/form/image/download.jpg);  */
+
+        margin-top: 5px;
+        background-color: red;
+        border: 2px solid green;
+        transform: rotate(67deg);
+        opacity: 0.9;
+       }
+       .yellow6:hover{
+           background-color: lawngreen;
+           opacity: 1.0;
+       }
+       .blue6{
+        margin:-5px 660px 4px ;
+       
+           background-color:blue;
+           border: 2px solid green;
+           transform: rotate(30deg);
+           opacity: 0.5;
+           transition-delay: 1s;
+       }
+      
+       .pink6{
+        margin:10px 660px 4px ;
+       
+       background-color:#dd00ff;
+       border: 2px solid green;
+       transform: rotate(40deg);
+       }
+       .pink6:hover{
+           background-size: 100px;
+           background-image: url(./imags/t.jpg);
+       }
+    </style>
+</head>
+<body>
+    <div class="red"></div>
+    <div class="yellow"></div>
+    <div class="blue"></div>
+    <div class="purple"></div>
+   
+    <div class="red1"></div>
+    <div class="yellow1"></div>
+    <div class="blue1"></div>
+    <div class="pink1"></div>
+
+    <div class="red2"></div>
+    <div class="yellow2"></div>
+    <div class="blue2"></div>
+    <div class="pink2"></div>
+
+    <div class="red3"></div>
+    <div class="yellow3"></div>
+    <div class="blue3"></div>
+    <div class="pink3"></div>
+
+    <div class="red4"></div>
+    <div class="yellow4"></div>
+    <div class="blue4"></div>
+    <div class="pink4"></div>
+
+    <div class="red5"></div>
+    <div class="yellow5"></div>
+    <div class="blue5"></div>
+    <div class="pink5"></div>
+
+    <div class="red6"></div>
+    <div class="yellow6"></div>
+    <div class="blue6"></div>
+    <div class="pink6"></div>
+
+</body>
+</html>
